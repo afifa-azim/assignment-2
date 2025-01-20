@@ -13,6 +13,9 @@
 .display-flex{
     display: flex;
 }
+.font-weight{
+    font-weight: 700;
+}
 .text-orange{
     color: #FEA301;
 }
@@ -24,6 +27,15 @@
 }
 .text-violet{
     color: #5D58EF;
+}
+.text-black{
+    color: black;
+}
+.btn-black{
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    padding: 0.5rem 1rem;
 }
 .navbar{
     max-width: 1440px;
@@ -60,3 +72,20 @@
     color: white;
     font-weight: 76px;
  }
+ /* main-section-hero */
+ .hero {
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 20px;
+  }
+  .hero-text{
+    font-size: 2.5rem;
+  }
+  .hero-p{
+    font-size: 1.5rem;
+  }
+  .btn-enroll{
+    width: 150px;
+    height: 50px;
+  }
