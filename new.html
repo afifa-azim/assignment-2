@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        .card {
+            background: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .date {
+            background: #6ab04c;
+            color: #fff;
+            padding: 5px 10px;
+            display: inline-block;
+            margin: 10px;
+            border-radius: 15px;
+            font-size: 14px;
+        }
+        .purple { background: #6a5acd; }
+        .yellow { background: #e1b12c; }
+        .title {
+            padding: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+        }
+        @media (max-width: 600px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="grid">
+            <div class="card">
+                <img src="assets/story-2.png" alt="School Needs">
+                <span class="date">November 19, 2019</span>
+                <div class="title">Find out if a school fits the family's needs</div>
+            </div>
+            <div class="card">
+                <img src="assets/story-3.png" alt="Summer Math">
+                <span class="date purple">November 19, 2019</span>
+                <div class="title">Summer math & literacy centres for kids</div>
+            </div>
+            <div class="card">
+                <img src="assets/story-4.png" alt="Classroom Management">
+                <span class="date yellow">September 10, 2019</span>
+                <div class="title">Classroom management techniques for new tutors</div>
+            </div>
+            <div class="card">
+                <img src="assets/story-5.png" alt="Conversation Rhymes">
+                <span class="date">July 19, 2019</span>
+                <div class="title">Conversation rhymes improve kids listening</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
