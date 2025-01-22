@@ -334,6 +334,34 @@ main > section{
   font-weight: bold;
   color: #333;
 }
+/* Container for Centering */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* View All Button Styling */
+.view-all-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.2s;
+  width: 200px;
+  height: 50px;
+}
+
+.view-all-btn:hover {
+  background: #333;
+  transform: scale(1.05);
+}
+
 /* @media (max-width: 600px) {
   .grid {
       grid-template-columns: 1fr;
