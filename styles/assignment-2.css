@@ -182,9 +182,9 @@ main{
     background-color: #e68a00;
 }
 
-.head-story{
+/* .head-story{
   margin-top: 30px;
-}
+} */
 .our-stories{
   align-items: center;
     font-size: 46px;
@@ -193,7 +193,7 @@ main{
     max-width: 850px;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 .stories-head{
   margin: 0;
@@ -201,7 +201,7 @@ main{
   box-sizing: border-box;
   font-family: 'Arial', sans-serif;
   max-width: 1140px;
-  height: 630px;
+  /* height: 630px; */
 }
 
 
@@ -211,7 +211,7 @@ main{
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 540px;
-  height: 580px;
+  /* height: 580px; */
   /* overflow: hidden; */
   transition: transform 0.3s;
 }
@@ -221,9 +221,9 @@ main{
 }
 
 .story-image img {
+  /* width: 100%; */
   width: 100%;
-  height: auto;
-  display: block;
+  
 }
 
 .story-content {
@@ -235,7 +235,7 @@ main{
     color: white;
     background: #00bfa6;
     border-radius: 62px;
-    display: inline-block;
+    display: inline-block; 
     position: relative;
     top: -40px;
     right: -45px;
@@ -255,7 +255,7 @@ main{
   font-size: 1.2rem;
   font-weight: bold;
   color: #333;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 .story-description {
@@ -267,9 +267,9 @@ main{
 .container {
   width: 100%;
   max-width: 600px;
-  height: 600px;
+  /* height: 600px; */
   margin: 0 auto;
-  background: #ffffff;
+  /* background: #ffffff; */
   padding: 20px;
 }
 .grid {
@@ -285,8 +285,8 @@ main{
 }
 .card img {
   width: 100%;
-  height: auto;
-  display: block;
+  /* height: auto; */
+  /* display: block; */
 }
 .date {
   background: #6ab04c;
@@ -307,13 +307,14 @@ main{
 }
 /* Container for Centering */
 .button-container {
-  display: flex;
+  text-align: center;
+  /* display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   margin-bottom: 30px;
   margin-top: 40px;
-  padding: 40px;
+  padding: 40px; */
 }
 
 /* View All Button Styling */
@@ -339,17 +340,17 @@ main{
 
 
 /* Footer section */
-footer {
-  /* gap: none; */
-  margin-top: 0;
-  /* margin-top: 30px; */
-  background-color: #00BFFF; 
+footer { 
+  /* gap: none;  */
+   margin-top: 0;
+   margin-top: 30px; 
+   background-color: #00BFFF; 
   color: #fff;
   padding: 30px 30px;
-  display: flex;
-  justify-content: space-around;
-  /* align-items: flex-start; */
-}
+  display: flex; 
+   justify-content: space-around; 
+   align-items: flex-start; 
+ }
 .footer-column {
   flex: 1;
   text-align: left;
