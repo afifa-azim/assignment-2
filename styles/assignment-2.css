@@ -97,8 +97,10 @@ main{
     border: none;
     width: 100px;
     height: 50px;
-     display: none; 
-    
+     display: none;   
+ }
+ .hr{
+  display: none;
  }
  
  
@@ -183,8 +185,8 @@ main{
     cursor: pointer;
     margin: 0 5px;
     transition: background-color 0.3s;
-    /* justify-content: center;
-    align-items: center; */
+    /* justify-content: center; */
+    align-items: center; 
 }
 
 .pagination button:hover {
@@ -317,7 +319,7 @@ main{
 /* Container for Centering */
 .button-container {
   text-align: center;
-   display: flex;
+   /* display: flex; */
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -399,18 +401,20 @@ footer {
 
 /* Small device */
 @media screen and (max-width:576px) {
-  .navbar {
-    flex-direction: column;
-    align-items: center;
-}
+  
 .hambarg{
+  display: block;
+}
+
+
+.hr{
   display: block;
 }
 .hero-image {
   order: -1;
   align-items: center;
 }
-.nav-links{
+.nav-links, .brand{
   display: none;
 }
 .ctn-button{
@@ -441,16 +445,20 @@ footer {
   height: auto; 
    margin-bottom: 20px;  
 }
+.pagination{
+  display: none;
+}
 /* Stories */
 .stories-head {
   flex-direction: column;
-  align-items: center; 
+  align-items: center;  
 }
 
 .story-card {
-  width: 100%; 
+  display: none;
+  /* width: 100%; 
   margin-bottom: 20px; 
-}
+} */
 
 .grid , .head-story{
   grid-template-columns: 1fr; 
