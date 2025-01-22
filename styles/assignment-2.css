@@ -93,6 +93,15 @@ main{
     color: white;
     font-weight: 76px;
  }
+ .hambarg{
+    border: none;
+    width: 100px;
+    height: 50px;
+     display: none; 
+    
+ }
+ 
+ 
  /* main-section-hero */
  .hero {
     align-items: center;
@@ -308,13 +317,13 @@ main{
 /* Container for Centering */
 .button-container {
   text-align: center;
-  /* display: flex;
+   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   margin-bottom: 30px;
   margin-top: 40px;
-  padding: 40px; */
+  padding: 40px; 
 }
 
 /* View All Button Styling */
@@ -393,6 +402,9 @@ footer {
   .navbar {
     flex-direction: column;
     align-items: center;
+}
+.hambarg{
+  display: block;
 }
 .hero-image {
   order: -1;
